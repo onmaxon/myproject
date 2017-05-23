@@ -6,3 +6,5 @@ echo "this is your local time:"
 T=$(date +%H:%M:%S)
 D=$(date +%Y-%m-%d)
 echo "$T" "$D"
+
+This is the last file in the project right now
