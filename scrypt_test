@@ -1,8 +1,0 @@
-#!/bin/bash
-read -n 1 -p "Hello, are y sure that y want to run this (y/[a]): " AMSURE 
-[ "$AMSURE" = "y" ] || exit
-echo "" 1>&2
-echo "Hi my friend this is your local time:"
-D=$(date +%Y-%m-%d)
-T=$(date +%H:%M:%S)
-echo "$D" "$T"
