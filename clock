@@ -1,5 +1,5 @@
 #!/bin/bash
-read -n 1 -p "Hello, are y sure that y want to run this (y/[a]): " AMSURE 
+read -n 1 -p "hi are y sure that y want to run this (y/[a]): " AMSURE 
 [ "$AMSURE" = "y" ] || exit
 echo "" 1>&2
 echo "this is your local time:"
